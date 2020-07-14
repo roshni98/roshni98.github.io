@@ -12,7 +12,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 body {
 	--color-text: #e0e0e0;
 	--color-text-secondary: #5e6262;
-	--color-bg: yellow;
+	--color-bg: white;
 	--color-link: #5e6262;
 	--color-link-hover: #e0e0e0;
 	--color-date: #e0e0e0;
@@ -56,6 +56,7 @@ body {
 	to {
 		opacity: 1;
 		transform: scale3d(0.5,0.5,1);
+	
 	}
 }
 
@@ -91,12 +92,9 @@ canvas {
 	z-index: 1000;
 }
 
-.demo-1 .frame,
-.demo-2 .frame,
-.demo-3 .frame,
-.demo-4 .frame {
+.demo-1 .frame, {
 	opacity: 0;
-	/* background-color:yellow; */
+
 }
 
 .frame__deco {
@@ -132,10 +130,14 @@ canvas {
 
 .frame__links {
 	display: inline;
+
 }
 
 .frame__demos {
+	/* navigation links on top */
 	margin: 1rem 0;
+	font-size: 20px;
+
 }
 
 .frame__demos a,
@@ -159,7 +161,8 @@ canvas {
 	position: relative;
 	justify-items: center;
 	text-align: center;
-		/* background-color:yellow; */
+	/* background: yellow;
+	opacity: 3%; */
 }
 
 .js .content__item {
@@ -183,7 +186,7 @@ canvas {
 
 .content__title {
 	font-weight: 700;
-	font-size: 9vw;
+	font-size: 90px;
 	margin: 0;
 }
 
@@ -192,7 +195,7 @@ canvas {
 }
 
 .content__title span {
-	display: inline-block;
+	/* display: inline-block; */
 	opacity: 0;
 }
 
@@ -205,6 +208,7 @@ canvas {
 }
 
 .content__date {
+	/* March 18 font size */
 	font-size: 3rem;
 	font-weight: 700;
 	margin: 1rem 0 0 0;
@@ -223,6 +227,7 @@ canvas {
 	padding: 0;
 	margin: 2rem 0 0 0;
 	display: block;
+
 }
 
 .content__inner-item {
@@ -232,6 +237,7 @@ canvas {
 }
 
 .content__inner-item--date {
+	/* something something font size */
 	display: block;
 	margin: 0 0 1.5rem;
 	font-size: 2rem;
@@ -249,11 +255,12 @@ canvas {
 }
 
 .content__button {
+	/* take me in font */
 	padding: 0;
 	margin: 0;
 	background: none;
 	border: 0;
-	color: var(--color-text);
+	color: orange;
 	cursor: pointer;
 	font-size: 1.25rem;
 	font-family: titling-gothic-fb-wide, sans-serif;
@@ -266,7 +273,7 @@ canvas {
 	position: absolute;
 	width: 100%;
 	height: 2px;
-	background: currentColor;
+	background: white;
 	left: 0;
 	top: 100%;
 	opacity: 0;
@@ -360,6 +367,7 @@ canvas {
 		margin: 0;
 	}
 	.content__item--columns {
+		/* something part font */
 		font-size: 2.15rem;
 		display: grid;
 		grid-template-rows: 100%;
