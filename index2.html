@@ -1,13 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-    <meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Project Page</title>
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,400,500,600,700" rel="stylesheet" href="css/styles.css" type="text/css">
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div id="container"></div>
+  <div class="frame">
+    <div class="frame__title-wrap">
+      <h1 class="frame__title">Portfolio</h1>
+      <div class="frame__links">
+        <!-- <a href="https://tympanus.net/Development/SVGImageHover/">Previous Demo</a> -->
+        <!-- <a href="https://tympanus.net/codrops/?p=39110">Article</a>
+        <a href="https://github.com/codrops/ExplodingObjects/">GitHub</a> -->
+      </div>
+    </div>
+    <!-- <p class="frame__credits">Inspired by <a href="https://dribbble.com/shots/6019111-Kubrick-Life-Website-3D-Motion">Kubrick Life Website: 3D Motion</a></p> -->
+    <div class="frame__demos">
+      <a href="index.html" class="frame__demo">Home</a>
+      <a href="index2.html" class="frame__demo frame__demo--current">Projects</a>
+      <a href="index3.html" class="frame__demo">Art</a>
+      <a href="index4.html" class="frame__demo">About</a><br/>
 
-  <body>
-		
-  </body>
+    </div>
+    <div class="frame__deco">
+      <span class="frame__deco-inner">Roshni Shah</span>
+    </div>
+
+  </div><!-- /frame -->
+<section class="portfolio-section">
+      <div class="container">
+<!--         <h2 class="title">Portfolio</h2> -->
+        <span class="hr-role"></span>
+        <div class="portfolio-tab">
+          <ul id="filters" class="clearfix">
+              <li class="filter active" data-filter=".snippet, .design, .full-project">all</li>
+              <li class="filter" data-filter=".snippet">Traditional Art</li>
+              <li class="filter" data-filter=".design">Digital Design</li>
+              <li class="filter" data-filter=".full-project">AR</li>
+          </ul>
+        </div>
+        <div class="portfolio-grid">
+          <div class="portfolio snippet" data-cat="snippet">
+            <div class="portfolio-wrapper first">
+              <div class="portfolio-bg"></div>
+              <div class="label">
+                <div class="label-text">
+                  <h4>Project Name</h4>
+                  <span class="text-category">Traditional Art</span>
+                  <a href="#" class="template-btn" target="_blank">View</a>
+                </div>
+                <div class="label-bg"> </div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio design" data-cat="design">
+            <div class="portfolio-wrapper second">
+              <div class="portfolio-bg"></div>
+              <div class="label">
+                <div class="label-text">
+                  <h4>Project Name</h4>
+                  <span class="text-category">Digital Design</span>
+                  <a href="#" class="template-btn" target="_blank">View</a>
+                </div>
+                <div class="label-bg"> </div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio full-project" data-cat="full-project">
+            <div class="portfolio-wrapper third">
+              <div class="portfolio-bg"></div>
+              <div class="label">
+                <div class="label-text">
+                  <h4>Project Name</h4>
+                  <span class="text-category">AR</span>
+                  <a href="#" class="template-btn" target="_blank">View</a>
+                </div>
+                <div class="label-bg"> </div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio design" data-cat="design">
+            <div class="portfolio-wrapper second">
+              <div class="portfolio-bg"></div>
+              <div class="label">
+                <div class="label-text">
+                  <h4>Project Name</h4>
+                  <span class="text-category">Digital Design</span>
+                  <a href="#" class="template-btn" target="_blank">View</a>
+                </div>
+                <div class="label-bg"> </div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio full-project" data-cat="full-project">
+            <div class="portfolio-wrapper third">
+              <div class="portfolio-bg"></div>
+              <div class="label">
+                <div class="label-text">
+                  <h4>Project Name</h4>
+                  <span class="text-category">AR</span>
+                  <a href="#" class="template-btn" target="_blank">View</a>
+                </div>
+                <div class="label-bg"> </div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio snippet" data-cat="snippet">
+            <div class="portfolio-wrapper first">
+              <div class="portfolio-bg"></div>
+              <div class="label">
+                <div class="label-text">
+                  <h4>Project Name</h4>
+                  <span class="text-category">Traditional Art</span>
+                  <a href="#" class="template-btn" target="_blank">View</a>
+                </div>
+                <div class="label-bg"> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
+    <script src="js/projectFilter.js"></script>
+</body>
 </html>
