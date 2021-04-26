@@ -609,14 +609,58 @@ h4 {
   transform: scale(1.2)
 }
 .first .portfolio-bg{
-  background-image: url('https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?cs=srgb&dl=accounts-applications-apps-267350.jpg&fm=jpg');
+  background-image: url('../img/left-iphoneX.png');
 
 }
 .second .portfolio-bg{
-  background-image: url('https://images.pexels.com/photos/1053687/pexels-photo-1053687.jpeg?cs=srgb&dl=art-art-materials-artwork-1053687.jpg&fm=jpg');
+  background-image: url('../img/ai_calorie_counter.png');
 }
 .third .portfolio-bg{
-  background-image: url('https://images.pexels.com/photos/6224/hands-people-woman-working.jpg?cs=srgb&dl=brainstorming-campaign-collaborate-6224.jpg&fm=jpg');
+  background-image: url('../img/2020Vision.png');
+
+}
+.fourth .portfolio-bg{
+  background-image: url('../img/RUOkay.png');
+
+}
+.fifth .portfolio-bg{
+  background-image: url('../img/HelloWorld.png');
+
+}
+.sixth .portfolio-bg{
+  background-image: url('../img/memoryGame.png');
+
+}
+.seventh .portfolio-bg{
+  background-image: url('../img/pixelArtMaker.png');
+
+}
+.eigthth .portfolio-bg{
+  background-image: url('../img/aiCalorieCounter.png');
+
+}
+.nine .portfolio-bg{
+  background-image: url('../img/motion1.png');
+
+}
+.ten .portfolio-bg{
+  background-image: url('../img/motion2.png');
+
+}
+.eleven .portfolio-bg{
+  background-image: url('../img/motion3.png');
+
+}
+.twelve .portfolio-bg{
+  background-image: url('../img/motion4.png');
+
+}
+.thirteen .portfolio-bg{
+  background-image: url('../img/motion5.png');
+
+}
+.fourteen .portfolio-bg{
+  background-image: url('../img/motion6.png');
 
 }
 .portfolio .label {
@@ -658,4 +702,17 @@ h4 {
   text-decoration: none;
   margin-top: 20px;
   font-weight: 500
+}
+
+#galaxy{
+  border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    height: 200px;
+    width: 200px;
+    padding: 5%;
+    /* width: 200px; /* Set a small width */
+}
+
+#galaxy:hover{
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
