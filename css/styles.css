@@ -442,7 +442,11 @@ body {
   margin: 0;
   padding: 0;
   color: white;
+<<<<<<< HEAD
   font-family: "Montserrat", Arial;
+=======
+  font-family: "Montserrat", sans-serif;
+>>>>>>> 043577f98749f4b814c13004ca7f1c3395bd14fa
 }
 
 h2 {
@@ -452,13 +456,21 @@ h2 {
 h4 {
   color: white;
   text-transform: capitalize;
+<<<<<<< HEAD
   font-size: 1.8rem;
+=======
+  font-size: 1.5rem;
+>>>>>>> 043577f98749f4b814c13004ca7f1c3395bd14fa
   font-weight: 500;
 }
 @media (max-width: 575.98px) {
 
   h4 {
+<<<<<<< HEAD
     font-size: 2px;
+=======
+    font-size: 20px;
+>>>>>>> 043577f98749f4b814c13004ca7f1c3395bd14fa
   }
   span,
   p,
@@ -616,7 +628,11 @@ h4 {
   background-image: url('../img/ai_calorie_counter.png');
 }
 .third .portfolio-bg{
+<<<<<<< HEAD
   background-image: url('../img/2020vision.gif');
+=======
+  background-image: url('../img/2020Vision.png');
+>>>>>>> 043577f98749f4b814c13004ca7f1c3395bd14fa
 
 }
 .fourth .portfolio-bg{
@@ -640,6 +656,7 @@ h4 {
 
 }
 .nine .portfolio-bg{
+<<<<<<< HEAD
   background-image: url('../img/motion1.gif');
 
 }
@@ -694,6 +711,29 @@ h4 {
 }
 .twentyTwo .portfolio-bg{
   background-image: url('../img/blob.gif');
+=======
+  background-image: url('../img/motion1.png');
+
+}
+.ten .portfolio-bg{
+  background-image: url('../img/motion2.png');
+
+}
+.eleven .portfolio-bg{
+  background-image: url('../img/motion3.png');
+
+}
+.twelve .portfolio-bg{
+  background-image: url('../img/motion4.png');
+
+}
+.thirteen .portfolio-bg{
+  background-image: url('../img/motion5.png');
+
+}
+.fourteen .portfolio-bg{
+  background-image: url('../img/motion6.png');
+>>>>>>> 043577f98749f4b814c13004ca7f1c3395bd14fa
 
 }
 .portfolio .label {
