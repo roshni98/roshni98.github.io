@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Roshni's Website</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/modal.css">
+
+
+</head>
+<body>
+  <div id="container"></div>
+  <div class="frame">
+    <div class="frame__title-wrap">
+      <h1 class="frame__title">Portfolio</h1>
+      <div class="frame__links">
+        <!-- <a href="https://tympanus.net/Development/SVGImageHover/">Previous Demo</a> -->
+        <!-- <a href="https://tympanus.net/codrops/?p=39110">Article</a>
+        <a href="https://github.com/codrops/ExplodingObjects/">GitHub</a> -->
+      </div>
+    </div>
+    <!-- <p class="frame__credits">Inspired by <a href="https://dribbble.com/shots/6019111-Kubrick-Life-Website-3D-Motion">Kubrick Life Website: 3D Motion</a></p> -->
+    <div class="frame__demos">
+      <a href="home.html" class="frame__demo">Home</a>
+      <a href="projects.html" class="frame__demo">Projects</a>
+      <a href="arts.html" class="frame__demo frame__demo--current">Art</a>
+      <a href="about.html" class="frame__demo">About</a><br/>
+
+    </div>
+    <div class="frame__deco">
+      <span class="frame__deco-inner">Roshni Shah</span>
+    </div>
+
+  </div><!-- /frame -->
+<section class="portfolio-section">
+      <div class="container">
+<!--         <h2 class="title">Portfolio</h2> -->
+        <span class="hr-role"></span>
+        <div class="portfolio-tab">
+          <ul id="filters" class="clearfix">
+              <li class="filter active" data-filter=".snippet, .design, .full-project">all</li>
+              <li class="filter" data-filter=".snippet">Traditional Art</li>
+              <li class="filter" data-filter=".design">Digital Design</li>
+              <li class="filter" data-filter=".full-project">AR</li>
+          </ul>
+        </div>
+        <div class="portfolio-grid">
+          <div class="portfolio snippet" data-cat="snippet">
+            <div class="portfolio-wrapper fifthteen">
+              <div class="portfolio-bg"></div>
+              <div class="label">
+                <div class="label-text">
+                  <h4>Food Series</h4>
+                  <span class="text-category">Traditional Art</span>
+                  <a class="template-btn" target="_blank" src="./../img/fourFoodDrawing.png" caption="Colored Pencil Food Drawing">View</a>
+                </div>
+                <div class="label-bg"> </div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio full-project" data-cat="full-project">
+            <div class="portfolio-wrapper sixteenth">
+              <div class="portfolio-bg"></div>
+              <div class="label">
+                <div class="label-text">
+                  <h4>Bring Drawing to Life with AR</h4>
+                  <span class="text-category">AR</span>
+                  <a class="template-btn" target="_blank" src="./../img/croissantAR.gif" caption="AR Croissant">View</a>
+                </div>
+                <div class="label-bg"> </div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio snippet" data-cat="snippet">
+            <div class="portfolio-wrapper seventeen">
+              <div class="portfolio-bg"></div>
+              <div class="label">
+                <div class="label-text">
+                  <h4>Ramen Colored Pencil Drawing</h4>
+                  <span class="text-category">Tradional Art</span>
+                  <a class="template-btn" target="_blank" src="./../img/noodles.png" caption="Colored Pencil Noodle Drawing">View</a>
+                </div>
+                <div class="label-bg"> </div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio full-project" data-cat="full-project">
+            <div class="portfolio-wrapper eighthteen">
+              <div class="portfolio-bg"></div>
+              <div class="label">
+                <div class="label-text">
+                  <h4>Ramen Drawing using AR</h4>
+                  <span class="text-category">AR</span>
+                  <a class="template-btn" target="_blank" src="./../img/noodlesAR.gif" caption="Noodle Drawing using AR">View</a>
+                </div>
+                <div class="label-bg"> </div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio design" data-cat="design">
+            <div class="portfolio-wrapper nineteen">
+              <div class="portfolio-bg"></div>
+              <div class="label">
+                <div class="label-text">
+                  <h4>Baseball Player Digital Drawing</h4>
+                  <span class="text-category">Digital Design</span>
+                  <a class="template-btn" target="_blank" src="./../img/stroman.png" caption="Baseball Player, Marcus Stroman, Digital Drawing">View</a>
+                </div>
+                <div class="label-bg"> </div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio design" data-cat="design">
+            <div class="portfolio-wrapper twenty">
+              <div class="portfolio-bg"></div>
+              <div class="label">
+                <div class="label-text">
+                  <h4>Baseball Player Digital Drawing</h4>
+                  <span class="text-category">Digital Design</span>
+                  <a class="template-btn" target="_blank" src="./../img/lindor.png" caption="Baseball Player, Francisco Lindor, Digital Drawing">View</a>
+                </div>
+                <div class="label-bg"> </div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio full-project" data-cat="full-project">
+            <div class="portfolio-wrapper twentyOne">
+              <div class="portfolio-bg"></div>
+              <div class="label">
+                <div class="label-text">
+                  <h4>Created an Instagram Filter</h4>
+                  <span class="text-category">AR</span>
+                  <a class="template-btn" target="_blank" src="./../img/filterGif.gif" caption="Created Instagram filter">View</a>
+                </div>
+                <div class="label-bg"> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+      </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
+    <script src="js/projectFilter.js"></script>
+
+    <script>
+      // Get the modal
+      document.querySelectorAll('.template-btn').forEach(item => {
+        var modal = document.getElementById("myModal");
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+          item.addEventListener('click', event => {
+            console.log('test')
+            modal.style.display = "block";
+            modalImg.src = item.getAttribute('src');
+            captionText.innerHTML = item.getAttribute('caption');
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+              modal.style.display = "none";
+            }
+        })
+      })
+
+      // Get the <span> element that closes the modal
+
+    </script>
+</body>
+</html>
