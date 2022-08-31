@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.intro {
+  height: 100vh;
+}
+
+.intro video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.intro h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  color: rgb(5, 4, 4);
+}
+
+.intro h2 {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: rgb(5, 4, 4);
+}
+
+.aboutme {
+  background-image: url("techArtWide.png");
+  background-color: darkorchid;
+  height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.aboutme h1 {
+  padding-top: 150px;
+  padding-left: 20px;
+  text-align: left;
+  font-size: 80px;
+}
+
+.aboutme p {
+  padding-left: 20px;
+  margin-right: 50%;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+a {
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+.aboutme a {
+  padding-top: 50px;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.artwork {
+  background-image: url("artbanner.png");
+  height: 100vh;
+  background-size:50%;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.artwork h1 {
+  padding-top: 40px;
+  padding-right: 20px;
+  text-align: right;
+  font-size: 80px;
+}
+
+.artwork p {
+  padding-right: 20px;
+  margin-left: 50%;
+  text-align: right;
+}
+
+.artwork li {
+  padding-top: 40px;
+  padding-left: 75%;
+  text-align: "justify-right";
+}
+
+.projects {
+  background-image: url("projectBanner.png");
+  height: 100vh;
+  background-size:50%;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.projects h1 {
+  padding-top: 40px;
+  padding-left: 20px;
+  text-align: left;
+  font-size: 80px;
+}
+
+.projects p {
+  padding-left: 20px;
+  padding-top: 10px;
+  margin-right: 50%;
+  text-align: left;
+}
+
+.projects li {
+  padding-top: 40px;
+  padding-right: 70%;
+  text-align: "justify-right";
+}
+
+section {
+  height: 100vh;
+  color: black;
+  padding: 0%;
+}
+
+.footer {
+  display: table;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
