@@ -37,12 +37,12 @@ body {
 }
 
 .aboutme {
-  background-image: url("techArtWide.png");
-  background-color: darkorchid;
+  background-image: url("techArtWide.png"), url("techArtWide.png");
+  background-color: rgb(241, 11, 126);
   height: 100vh;
   background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-repeat: no-repeat, repeat;
+  background-position: left right;
 }
 
 .aboutme h1 {
@@ -135,6 +135,16 @@ section {
   padding: 0%;
 }
 
+.summary h1 {
+  padding-top: 40px;
+  padding-left: 20px;
+  text-align: left;
+  font-size: 80px;
+}
+
+.summary video {
+  margin-left: 50%;
+}
 .footer {
   display: table;
   text-align: center;
