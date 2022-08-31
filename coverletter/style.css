@@ -6,6 +6,9 @@
 
 body {
   font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
 
 .intro {
@@ -59,7 +62,6 @@ body {
   margin-right: 50%;
   padding-bottom: 10px;
   text-align: left;
-  font-weight: bold;
 }
 
 a {
