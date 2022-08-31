@@ -38,10 +38,12 @@ body {
 
 .aboutme {
   background-image: url("techArtWide.png"), url("techArtWide.png");
-  background-color: rgb(241, 11, 126);
+  /* background-color: rgb(241, 11, 126); */
+  /* background-blend-mode: overlay; */
   height: 100vh;
   background-size: contain;
   background-repeat: no-repeat, repeat;
+  color: black;
   background-position: left right;
 }
 
@@ -57,6 +59,7 @@ body {
   margin-right: 50%;
   padding-bottom: 10px;
   text-align: left;
+  font-weight: bold;
 }
 
 a {
@@ -70,7 +73,7 @@ ul {
 
 .aboutme a {
   padding-top: 50px;
-  padding-left: 20px;
+  padding-left: 30%;
   text-align: left;
 }
 
@@ -150,7 +153,9 @@ section {
 }
 
 .summary video {
+  padding-top: 10px;
   margin-left: 50%;
+  margin-right: 50%;
 }
 
 footer {
