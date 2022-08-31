@@ -134,7 +134,9 @@ section {
   color: black;
   padding: 0%;
 }
-
+.summary {
+  padding-bottom: 50px;
+}
 .summary h1 {
   padding-top: 40px;
   padding-left: 20px;
@@ -142,10 +144,16 @@ section {
   font-size: 80px;
 }
 
+.summary p {
+  padding-left: 20px;
+  margin-right: 50%;
+}
+
 .summary video {
   margin-left: 50%;
 }
-.footer {
+
+footer {
   display: table;
   text-align: center;
   margin-left: auto;
