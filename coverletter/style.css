@@ -50,6 +50,12 @@ button {
 .btn3{
   left:35%;
 }
+.btn4{
+  right:25%;
+}
+.btn5{
+  right:10%;
+}
 
 .intro h1 {
   position: absolute;
