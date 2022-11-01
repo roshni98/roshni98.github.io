@@ -31,11 +31,24 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
   cursor: pointer;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
+}
+
+.btn{
   left:20%;
+}
+
+.btn1{
+  left:2%;
+}
+.btn2{
+  left:20%;
+
+}
+.btn3{
+  left:35%;
 }
 
 .intro h1 {
