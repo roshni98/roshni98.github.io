@@ -177,6 +177,7 @@ section {
   padding: 0%;
 }
 .summary {
+  background-color: azure;
   padding-bottom: 50px;
 }
 .summary h1 {
